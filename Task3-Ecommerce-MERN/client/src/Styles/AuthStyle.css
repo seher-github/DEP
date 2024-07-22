@@ -1,0 +1,34 @@
+.form-container{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    flex-direction: column;
+    background-color: #ffdec9;
+    background-image: linear-gradient(0deg, #3a5535 0%, #cfffb3 100%);
+
+}
+.form-container form{
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    padding: 50px 100px;
+    background-color: #fff;
+}
+.form-container form .title{
+    text-align: center;
+    margin-bottom: 15px;
+    color: green;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.form-container form input{
+    border: 0;
+    border-bottom: 1px solid green;
+    border-radius: 0;
+    color: green;
+}
+.form-container .btn{
+    width: 100%;
+    background-color: green;
+    color: white;
+    border: 0;
+}

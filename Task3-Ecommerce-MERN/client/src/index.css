@@ -1,0 +1,313 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+  font-size: 17px;
+  line-height: 17px;
+  text-transform: uppercase;
+  box-shadow: 0 6px 6px -2px gray;
+  --webkit-box-shadow : 0 8px 6px-6px gray;
+  border-bottom: 0px solid gray !important;
+
+}
+.nav-link{
+  font-weight: 300 !important;
+  color: green;
+  margin: 10px 10px;
+}
+.active{
+  border-bottom: 1px solid rgb(2, 97, 2);
+  color: rgb(2, 97, 2) ;
+}
+.navbar-brand{
+  font-weight: 500;
+  font-size: 25px;
+  letter-spacing: 3px;
+  margin: 10px 20px;
+  color: green;
+}
+.footer{
+  color: white;
+  padding: 25px;
+  background-color: --webkit-linear-gradient(to right, #434343, #000000);
+  background-color: linear-gradient(to right, #434343,#000000);
+  text-decoration: none;
+}
+.footer a{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+}
+.pnf{
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pnf-title{
+  font-size: 100px;
+  font-weight: 700;
+}
+.pnf-heading{
+  font-weight: normal;
+}
+.pnf-btn{
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.about{
+  background-image: url('./pages/bg.png');
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 120vh;
+  color: green;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+
+}
+ .abt-heading{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+  letter-spacing: 8px;
+  margin-left: 130px;
+}
+.abt-title{
+  font-weight: 600;
+  font-size: 75px;
+  letter-spacing: 6px;
+  margin-left: 130px;
+}
+.text{
+  margin: 0;
+  color: green;
+  font-weight: 600;
+  font-size: 50px;
+}
+.abt-btn{
+  border: 2px solid green;
+  margin-left: 130px;
+  border-radius: 10px;
+  width: 120px;
+  font-weight: 300;
+  font-size: 18px;
+  text-decoration: none;
+  color: green;
+  padding: 10px;
+}
+.contact-container{
+  background-image: linear-gradient(
+    rgba(252, 255, 252, 0.7), 
+    rgba(255, 255, 255, 0.8)
+  ), url('./pages/bg.png');
+
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: green;
+  
+  
+}
+.register{
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  flex-direction: column;
+}
+.hero-container {
+  background-size: cover;
+  background-position: center;
+}
+.contact-container {
+  padding: 2rem;
+}
+
+.contact-form-container {
+  background-color: #f4f4f4; /* Light background for the form */
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.contact-title {
+  margin-bottom: 1.5rem;
+  color: green;
+}
+
+.contact-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.contact-form .form-control {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.contact-form .btn-success {
+  background-color: green;
+  border: none;
+}
+
+.contact-details-container {
+  padding: 2rem;
+}
+
+.contact-detail {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.contact-icon {
+  font-size: 2rem;
+  color: green;
+  margin-right: 1rem;
+}
+
+.contact-text h5 {
+  margin-bottom: 0.5rem;
+  color: green;
+}
+.footer-link {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: none;
+}
+/* HomePage.css */
+.container-fluid {
+  padding: 0 15px;
+}
+
+.text-success {
+  color: green !important;
+}
+
+.card {
+  border: 1px solid green;
+}
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+.btn-success {
+  background-color: green;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: darkgreen;
+}
+
+.btn-danger {
+  background-color: red;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: darkred;
+}
+
+.btn-warning {
+  background-color: yellow;
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: orange;
+}
+.dashboard-container {
+  background-color: #e6f9e6; /* Light green background for the container */
+}
+
+.dashboard-card {
+  background-color: #d1ffd1; /* Light green background for the card */
+  border: 1px solid #a1e6a1; /* Green border */
+  box-shadow: 0 4px 8px rgba(0, 128, 0, 0.2); /* Green shadow */
+}
+
+.dashboard-item {
+  display: flex;
+  align-items: center;
+  color: #006400; /* Dark green text color */
+  margin-bottom: 15px;
+}
+
+.dashboard-icon {
+  margin-right: 10px;
+  color: #008000; /* Green icon color */
+}
+.admin-dashboard-container {
+  background-color: #e6f9e6;
+  /* Light green background for the container */
+}
+
+.admin-dashboard-card {
+  background-color: #d1ffd1; /* Light green background for the card */
+  border: 1px solid #a1e6a1; /* Green border */
+  box-shadow: 0 4px 8px rgba(0, 128, 0, 0.2); /* Green shadow */
+}
+
+.admin-dashboard-item {
+  display: flex;
+  align-items: center;
+  color: #006400; /* Dark green text color */
+  margin-bottom: 15px;
+}
+
+.admin-dashboard-icon {
+  margin-right: 10px;
+  color: #008000; /* Green icon color */
+}
+.categories-container {
+  padding-top: 100px;
+  background-color: #e6f9e6; /* Light green background */
+}
+
+.categories-heading {
+  text-align: center;
+  color: #006400; /* Dark green text color */
+  margin-bottom: 30px;
+}
+
+.categories-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 15px;
+  font-size: 1.5rem; /* Bigger font size */
+  background-color: #008000; /* Green background */
+  color: white; /* White text */
+  border: none;
+  border-radius: 10px; /* Rounded corners */
+  transition: background-color 0.3s;
+}
+
+.categories-btn:hover {
+  background-color: #006400; /* Darker green on hover */
+}
+
+.categories-icon {
+  margin-right: 10px;
+}
+
+
+
+
+
+
